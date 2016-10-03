@@ -3,7 +3,7 @@ MAINTAINER "Stefan Jenkner <stefan@jenkner.org>"
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
+#RUN sed -i 's/archive.ubuntu.com/mirrors.aliyun.com/g' /etc/apt/sources.list
 
 RUN apt-get update
 
